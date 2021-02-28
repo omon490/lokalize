@@ -4,7 +4,9 @@ import speed from "../../img/speed.png"
 import { Link } from "react-router-dom"
 
 function Footer() {
-  return (
+return (
+<div className="footer-bg">
+  <div className="container">
     <div className="footer">
       <div className="footer-wrapper">
         <div className="footer-left-box">
@@ -16,9 +18,9 @@ function Footer() {
         </div>
 
         <div className="footer-right-box">
-          <ul className="footer-list-product">
+          <ul className="footer-list-global">
             <li className="footer-item">
-              <h4 className="footer-title-product">Product</h4>
+              <h4 className="footer-list-title">Product</h4>
             </li>
             <li className="footer-item">
               <Link className="footer-link" to="/dev">For developers</Link>
@@ -55,9 +57,9 @@ function Footer() {
 
 
 
-          <ul className="footer-list-support">
+          <ul className="footer-list-global">
             <li className="footer-item">
-              <h4 className="footer-title-support">Support</h4>
+              <h4 className="footer-list-title">Support</h4>
             </li>
             <li className="footer-item">
               <Link className="footer-link" to="/dev">Contact</Link>
@@ -95,9 +97,9 @@ function Footer() {
 
 
 
-          <ul className="footer-list-company">
+          <ul className="footer-list-global">
             <li className="footer-item">
-              <h4 className="footer-title-company">Company</h4>
+              <h4 className="footer-list-title">Company</h4>
             </li>
             <li className="footer-item">
               <Link className="footer-link" to="/dev">About</Link>
@@ -123,9 +125,9 @@ function Footer() {
 
 
 
-          <ul className="footer-list-legal">
+          <ul className="footer-list-global">
             <li className="footer-item">
-              <h4 className="footer-title-support">Legal</h4>
+              <h4 className="footer-list-title">Legal</h4>
             </li>
             <li className="footer-item">
               <Link className="footer-link" to="/dev">Terms of Service</Link>
@@ -158,15 +160,18 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom-box">
-        <h3 className="footer-bottom-logo">lokalise</h3>
-        <p className="footer-bottom-text">Localization workflow for your web and mobile apps, games and digital content.</p>
+        <Link className="footer-bottom-logo" to="/product">lokalise</Link>
+        <p className="footer-bottom-text">Localization workflow for your web and mobile apps, games and digital content.
+        </p>
         <div className="footer-bottom-copyright-wrapper">
-        <p className="footer-bootom-copyright">©2001-2020</p>
-        <p className="footer-bottom-copyright-text">All rights reserved.</p>
+          <p className="footer-bootom-copyright">©2001-2020</p>
+          <p className="footer-bottom-copyright-text">All rights reserved.</p>
         </div>
       </div>
     </div>
-  )
+  </div>
+</div>
+)
 }
 
 export default Footer
