@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Product from './Components/Pages/Product/Product';
 import Footer from './Components/Footer/Footer';
 import Features from './Components/Pages/Features/Features';
+import Pricing from './Components/Pages/Pricing/Pricing';
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           <Features></Features>
         </Route>
 
+        <Route path="/pricing">
+          <Pricing></Pricing>
+        </Route>
 
       </Switch>
 
