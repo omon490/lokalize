@@ -6,6 +6,7 @@ import Footer from './Components/Footer/Footer';
 import Features from './Components/Pages/Features/Features';
 import Pricing from './Components/Pages/Pricing/Pricing';
 import Case from './Components/Pages/Case/Case';
+import Resources from './Components/Pages/Resources/Resources';
 
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
 
         <Route path="/case">
           <Case></Case>
+        </Route>
+
+        <Route path="/resources">
+          <Resources></Resources>
         </Route>
       </Switch>
 
