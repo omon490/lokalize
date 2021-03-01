@@ -1,8 +1,16 @@
 import "./Product.css"
 import illustration from "../../../img/product-illustration.png"
+import { Link } from "react-router-dom"
+import speed from "../../../img/speed.svg"
+import virgin from "../../../img/virgin.svg"
+import yelp from "../../../img/yelp.svg"
+import tital from "../../../img/tital.svg"
+import revoult from "../../../img/revoult.svg"
+import daimler from "../../../img/daimler.svg"
 
 function Product() {
   return (
+    <>
     <div className="container">
       <div className="product-wrapper">
         <div className="product-left-box">
@@ -24,7 +32,50 @@ function Product() {
           <img className="product-right-img" src={illustration} alt="illustration" width="759" height="529" />
         </div>
       </div>
-    </div>
+      </div>
+      <div className="preferred">
+        <div className="container">
+          <h3 className="preferred-title">The preferred localization tool of 1500+ companies</h3>
+          <ul className="preferred-list">
+            <li className="preferred-item">
+              <Link className="preferred-link">
+                <img className="preferred-logo" src={speed} alt="logo"/>
+              </Link>
+            </li>
+
+            <li className="preferred-item">
+              <Link className="preferred-link">
+                <img className="preferred-logo" src={virgin} alt="logo"/>
+              </Link>
+            </li>
+
+            <li className="preferred-item">
+              <Link className="preferred-link">
+                <img className="preferred-logo" src={tital} alt="logo"/>
+              </Link>
+            </li>
+
+            <li className="preferred-item">
+              <Link className="preferred-link">
+                <img className="preferred-logo" src={revoult} alt="logo"/>
+              </Link>
+            </li>
+
+            <li className="preferred-item">
+              <Link className="preferred-link">
+                <img className="preferred-logo" src={yelp} alt="logo"/>
+              </Link>
+            </li>
+
+            <li className="preferred-item">
+              <Link className="preferred-link">
+                <img className="preferred-logo" src={daimler} alt="logo"/>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </>
   )
 }
 

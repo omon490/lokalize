@@ -70,3 +70,39 @@
   max-width: 759px;
   max-height: 529px;
 }
+
+.preferred {
+  background-color: #FF9C7D;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.preferred-title {
+  margin: 0;
+  margin-bottom: 70px;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.preferred-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.preferred-link {
+  text-decoration: none;
+  display: block;
+}
+
+.preferred-logo {
+  display: block;
+}

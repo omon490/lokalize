@@ -1,6 +1,6 @@
 import "./Footer.css"
 import bcycle from "../../img/bcycle.png"
-import speed from "../../img/speed.png"
+import speed from "../../img/speed.svg"
 import { Link } from "react-router-dom"
 
 function Footer() {
