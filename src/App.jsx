@@ -5,6 +5,7 @@ import Product from './Components/Pages/Product/Product';
 import Footer from './Components/Footer/Footer';
 import Features from './Components/Pages/Features/Features';
 import Pricing from './Components/Pages/Pricing/Pricing';
+import Case from './Components/Pages/Case/Case';
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
           <Pricing></Pricing>
         </Route>
 
+        <Route path="/case">
+          <Case></Case>
+        </Route>
       </Switch>
 
       <Footer></Footer>
