@@ -33,7 +33,9 @@
 
 .case-job-name {
   margin: 0;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: "Open-Sans", sans-serif;
+  font-weight: bold;
   line-height: 20px;
   text-align: left;
   color: #000;
@@ -43,4 +45,93 @@
   display: block;
   width: 310px;
   height: 310px;
+}
+
+.translation {
+  background-color: #DABC98;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.translation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.translation-left {
+  display: flex;
+  align-items: center;
+  width: 810px;
+  border-right: 2px solid #000;
+}
+
+.translation-img {
+  display: block;
+}
+
+.translation-left-text {
+  margin: 0;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.translation-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.translation-right-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.translation-right-left-img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.translation-right-left-star {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.translation-right-left-text {
+  margin: 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+}
+
+.translation-right-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.translation-right-right-img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.translation-right-right-star {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.translation-right-right-text {
+  margin: 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 0.75px;
 }
